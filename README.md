@@ -9,6 +9,7 @@ Inspired by:
 
 
 ### Course Summary
+---
 * __Introduction to Big Data__
   1. *Introduction to Big Data*
   2. *Demystifying Data Science*
@@ -25,27 +26,27 @@ Inspired by:
 
 
 ### Contents
+---
+##### Programming Models
+  * [MapReduce](#) - *Simplified Data Processing on Large Clusters paper*
+  * [Apache Spark](#) - *Framework for writing fast, distributed programs. Use a fast in-memory approach and a clean functional style*
 
-#### Programming Models
-  * [__MapReduce__](#) - *Simplified Data Processing on Large Clusters paper*
-  * [__Apache Spark__](#) - *Framework for writing fast, distributed programs. Use a fast in-memory approach and a clean functional style*
+##### Distributed File-System
+  * [Apache HDFS 1.x](#) - *Hadoop Distributed File System first generation docs*
+  * [Apache HDFS 2.x](#) - *Hadoop Distributed File System second generation docs*
 
-#### Distributed File-System
-  * [__Apache HDFS 1.x__](#) - *Hadoop Distributed File System first generation docs*
-  * [__Apache HDFS 2.x__](#) - *Hadoop Distributed File System second generation docs*
+##### No-SQL databases
+  * [Apache HBase](#) - *Real-time reading and writing operations in column-oriented large tables*
 
-#### No-SQL databases
-  * [__Apache HBase__](#) - *Real-time reading and writing operations in column-oriented large tables*
-
-#### SQL databases
-  * [__Apache Hive__](#) - *Data query and analysis using a SQL-like language*
+##### SQL databases
+  * [Apache Hive](#) - *Data query and analysis using a SQL-like language*
 
 
 ### Setup a spark developer environment
-
+---
  Tips and automated scripts to install big data tools for developers on your pessoal machine or into a cluster.
 
-#### Local setup:
-* [spark-dev-setup](#) - _Repository with scripts and tips to install big data tools (mainly for spark) in a single computer (Windows, Unix and OSX)._
+##### Local setup:
+* [spark-dev-setup](https://github.com/Hguimaraes/spark-dev-setup) - _Repository with scripts and tips to install big data tools (mainly for spark) in a single computer (Windows, Unix and OSX)._
 
-#### Cluster and AWS-EC2 setup:
+##### Cluster and AWS-EC2 setup:
